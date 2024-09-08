@@ -35,30 +35,16 @@ Altıncı Adım:
 Insertion Sort'un Big-O Gösterimi
 
 Average Case: 
-𝑂
-(
-𝑛
-2
-)
-O(n 
-2
- )
+𝑂(𝑛²)
+O(n²)
+ 
  
 Worst Case: 
-𝑂
-(
-𝑛
-2
-)
-O(n 
-2
- )
+𝑂(𝑛²)
+O(n²)
  
 Best Case: 
-𝑂
-(
-𝑛
-)
+𝑂(𝑛)
 O(n) (Dizi zaten sıralıysa)
 
 Time Complexity ve 18 Sayısının Durumu
