@@ -1,0 +1,88 @@
+Insertion Sort Adımları
+Dizimiz: [22, 27, 16, 2, 18, 6]
+
+İlk Adım:
+
+22'nin solunda başka eleman yok, bu yüzden 22 kendisiyle kalır.
+[22, 27, 16, 2, 18, 6]
+
+İkinci Adım:
+
+27, 22'den büyük, bu yüzden 27 kendisiyle kalır.
+[22, 27, 16, 2, 18, 6]
+
+Üçüncü Adım:
+
+16, 27'den küçük. 27'yi sağa kaydır ve 16'yı 22'nin soluna yerleştir.
+[16, 22, 27, 2, 18, 6]
+
+Dördüncü Adım:
+
+2, 27, 22 ve 16'dan küçük. 2'yi en başa yerleştir.
+[2, 16, 22, 27, 18, 6]
+
+Beşinci Adım:
+
+18, 27'den küçük ama 22'den büyük. 27'yi sağa kaydır ve 18'i 22'nin soluna yerleştir.
+[2, 16, 18, 22, 27, 6]
+
+Altıncı Adım:
+
+6, 27, 22, 18, ve 16'dan küçük. 6'yı en başa yerleştir.
+[2, 6, 16, 18, 22, 27]
+
+
+Insertion Sort'un Big-O Gösterimi
+
+Average Case: 
+𝑂
+(
+𝑛
+2
+)
+O(n 
+2
+ )
+ 
+Worst Case: 
+𝑂
+(
+𝑛
+2
+)
+O(n 
+2
+ )
+ 
+Best Case: 
+𝑂
+(
+𝑛
+)
+O(n) (Dizi zaten sıralıysa)
+
+Time Complexity ve 18 Sayısının Durumu
+
+Diziyi sıraladıktan sonra 18 sayısı, Average Case kapsamına girer. Çünkü genellikle sıralanmış dizinin ortasında yer alır.
+Selection Sort Adımları
+Dizimiz: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+İlk Adım:
+
+En küçük elemanı bul (2). 2'yi dizinin başına yerleştir.
+[2, 3, 5, 8, 7, 9, 4, 15, 6]
+
+İkinci Adım:
+
+Kalan diziyi dikkate al ve en küçük elemanı bul (3). 3, zaten başta olduğu için değişiklik yok.
+[2, 3, 5, 8, 7, 9, 4, 15, 6]
+
+Üçüncü Adım:
+
+Kalan diziyi dikkate al ve en küçük elemanı bul (4). 4'ü 5'in yerine koy.
+[2, 3, 4, 8, 7, 9, 5, 15, 6]
+
+Dördüncü Adım:
+
+Kalan diziyi dikkate al ve en küçük elemanı bul (5). 5'i 8'in yerine koy.
+[2, 3, 4, 5, 7, 9, 8, 15, 6]
